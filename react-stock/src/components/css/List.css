@@ -1,0 +1,44 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.List > input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding: 15px 0px;
+}
+
+.List > input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(37, 147, 255);
+}
+
+.List .todos_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.listMenu {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.listMenu div {
+  text-align: center;
+}
+
+.menu-symbol,
+.menu-todayPrice,
+.menu-rate,
+.menu-volume {
+  flex-basis: 20%;
+}
+
+.menu-remove {
+  flex-basis: 10%;
+}

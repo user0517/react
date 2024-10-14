@@ -1,0 +1,40 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.symbol,
+.today-price,
+.price-rate,
+.volume {
+  flex-basis: 20%;
+}
+
+.remove {
+  flex-basis: 10%;
+}
+
+.TodoItem button {
+  cursor: pointer;
+  color: gray;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.TodoItem div {
+  text-align: center;
+}
+
+.price-rate.red {
+  color: red;
+}
+
+.price-rate.blue {
+  color: blue;
+}
